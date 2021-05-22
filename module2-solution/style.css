@@ -1,0 +1,95 @@
+
+
+
+* {
+box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+
+	text-align: center;
+}
+@media (min-width: 992px){
+ .chicken , .beef , .sushi {
+
+border: 1px black solid;
+background-color: #aaaaaa;
+width: 31%;
+float: left;
+margin-right: 10px;
+margin-left:10px;
+}
+}
+div h2{
+    
+	border: 1px solid black;
+	background-color: #1232FF;
+	width: 150px;
+	float: right;
+	text-align: center;
+	
+	margin-top: 0;
+
+
+}
+div p{
+
+	clear: right;
+}
+div {
+	margin-top: 50px;
+	width: 100%;
+}
+
+@media (min-width: 768px) and  (max-width: 991px){
+
+	.chicken  {
+       border: 1px black solid;
+       background-color: #aaaaaa;
+       width: 48.5%;
+       float: left;
+       margin-right: 8px;
+	   margin-bottom: 10px;
+	}
+	.beef{
+       border: 1px black solid;
+       background-color: #aaaaaa;
+       width: 48.5%;
+       float: left;
+       margin-bottom: 12px;
+       margin-left: 10px;
+	}
+ .sushi{
+ border: 1px black solid;
+       background-color: #aaaaaa;
+       width: 100%;
+       float: left;
+
+ }
+}
+@media (max-width: 767px){
+
+	.chicken , .beef , .sushi{
+      border: 1px black solid;
+       background-color: #aaaaaa;
+	   width: 100%;
+	   margin-bottom: 10px;
+
+	}
+}
+
+.chicken > h2{
+background-color: green;
+}
+
+
+.beef > h2{
+	background-color: yellow;
+}
+
+.sushi > h2{
+
+	background-color: red;
+}
+
